@@ -40,7 +40,7 @@ const IconSmall= styled(Box)(({theme})=> ({
 
 
   return (
-    <AppBar position='static'>
+    <AppBar position='sticky'>
       <StyledToolbar>
         <Typography variant='h6' sx={{display: {xs: "none", sm: "block"}}}>FreeBook</Typography>
         <Facebook sx={{display:{sx:'block', sm:'none'}}} />
