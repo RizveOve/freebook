@@ -3,8 +3,7 @@ import { Box, List, ListItemButton, ListItemIcon, ListItemText, ListItem, Switch
 import {Home, AccountBox, Group, PersonAdd, Description, Send, Settings, Nightlight} from '@mui/icons-material';
 import React from 'react'
 
-export const Sidebar = () => {
-  const label = { inputProps: { 'aria-label': 'Switch demo' } };
+export const Sidebar = ({mode, setMode}) => {
 
 
   return (
@@ -72,7 +71,7 @@ export const Sidebar = () => {
             <ListItemIcon>
               <Nightlight />
             </ListItemIcon>
-            <Switch {...label} defaultChecked />
+            <Switch onChange={e=>setMode(mode==="light"? "dark" : "light")} />
           </ListItemButton>
         </ListItem>
       </List>

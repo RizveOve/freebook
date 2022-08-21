@@ -52,7 +52,7 @@ export default function AddPost() {
         aria-labelledby="modal-modal-title"
         aria-describedby="modal-modal-description"
       >
-        <Box width={400} height={280} bgcolor= 'white' p={3} borderRadius= '10px'>
+        <Box width={400} height={280} bgcolor={"background.default"} color={"text.primary"} p={3} borderRadius= '10px'>
           <Typography variant='h5' textAlign='center' color= 'gray'>Create post</Typography>
           <UserBox>
             <Avatar></Avatar>
