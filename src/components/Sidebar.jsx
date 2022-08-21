@@ -16,7 +16,7 @@ export const Sidebar = () => {
             <ListItemIcon>
               <Home />
             </ListItemIcon>
-            <ListItemText primary="Home Page" />
+            <ListItemText primary="Home" />
           </ListItemButton>
         </ListItem>
         <ListItem disablePadding>
